@@ -5,9 +5,9 @@ import mysql.connector
 # Connect to the MySQL Database
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",  # Change if not localhost
-        user="your_mysql_user",  # Replace with your MySQL username
-        password="your_mysql_password",  # Replace with your MySQL password
+        host="localhost",  
+        user="root",  
+        password="1234",  
         database="LibraryDB"
     )
 
